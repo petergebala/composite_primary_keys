@@ -32,9 +32,9 @@ module ActiveRecord
         [sql, binds]
       end
 
-      def last_inserted_id(result)
-        result.rows.first
-      end
+      # def last_inserted_id(result)
+      #   result.rows.first
+      # end
     end
   end
 end
